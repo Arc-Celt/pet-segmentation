@@ -1,0 +1,24 @@
+name: pet-seg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.0
+  - numpy=2.2.2
+  - pandas=2.2.3
+  - matplotlib=3.10.0
+  - ipykernel=6.29.5
+  - ipython=8.32.0
+  - jupyter=7.3.2
+  - pytorch=2.6.0
+  - torchvision=0.21.0
+  - torchaudio=2.6.0
+  - pillow=11.1.0
+  - tqdm=4.67.1
+  - scikit-learn=1.6.1
+  - pip=25.0
+  - yaml=6.0.2
+  - quarto
+  - pip:
+      - kagglehub
+      - matplotlib-venn
